@@ -23,17 +23,16 @@ public class Educational {
         }
 
         ArrayList<Integer> nums =  new ArrayList<Integer>();
-        nums.add(12);
-        nums.add(12);
-        nums.add(12);
-        nums.add(12);
+        nums.add(13);
+        nums.add(18);
+        nums.add(92);
+        nums.add(62);
         nums.add(12);
         Collections.sort(nums);
 
-        for (int i : nums){
-            System.out.println(i);
-        }
-
+       for(int i = 0; i<nums.size();i++){
+           System.out.println(nums.get(i));
+       }
 
         System.out.println(adds(2,5));
 

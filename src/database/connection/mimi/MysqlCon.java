@@ -8,7 +8,7 @@ public class MysqlCon {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con=DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/Java_DB","root"," ");
+                    "jdbc:mysql://localhost:3306/Java_DB?characterEncoding=utf8","oxane","oxane123456");
 
             Statement stmt=con.createStatement();
             ResultSet rs=stmt.executeQuery("select * from User");
