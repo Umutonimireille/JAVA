@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f961829-120a-4a0f-840e-6d4373340326" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/mimi/com/HashMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/mimi/com/Lists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Overloading/com/mimi/Overloads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Overridings/com/mimi/Overridings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swing/com/mimi/Swing1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boxing/com/mimi/Boxing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swing/com/mimi/LabelExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swing/com/mimi/Tables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vector/mimi/com/Vectors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Educational.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Educational.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/connection/mimi/MysqlCon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/connection/mimi/MysqlCon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +54,26 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lists">
-    <configuration name="HashMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.mimi.com.HashMaps" />
+  <component name="RunManager" selected="Application.Tables">
+    <configuration name="Boxing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boxing.com.mimi.Boxing" />
       <module name="EDUCATIONAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arrays.mimi.com.*" />
+          <option name="PATTERN" value="boxing.com.mimi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LabelExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swing.com.mimi.LabelExample" />
+      <module name="EDUCATIONAL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="swing.com.mimi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,21 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MysqlCon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="database.connection.mimi.MysqlCon" />
-      <module name="EDUCATIONAL" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="database.connection.mimi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Swing1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swing.com.mimi.Swing1" />
+    <configuration name="Tables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swing.com.mimi.Tables" />
       <module name="EDUCATIONAL" />
       <extension name="coverage">
         <pattern>
@@ -110,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="swing1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swing.com.mimi.swing1" />
+    <configuration name="Vectors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vector.mimi.com.Vectors" />
       <module name="EDUCATIONAL" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="swing.com.mimi.*" />
+          <option name="PATTERN" value="vector.mimi.com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tables" />
+        <item itemvalue="Application.Vectors" />
+        <item itemvalue="Application.Boxing" />
+        <item itemvalue="Application.LabelExample" />
         <item itemvalue="Application.Lists" />
-        <item itemvalue="Application.HashMaps" />
-        <item itemvalue="Application.Swing1" />
-        <item itemvalue="Application.swing1" />
-        <item itemvalue="Application.MysqlCon" />
       </list>
     </recent_temporary>
   </component>
